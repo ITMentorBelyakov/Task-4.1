@@ -9,5 +9,4 @@ class BackendGatewayClientApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

@@ -30,5 +30,4 @@ public interface UserMapper {
     default List<String> mapGroupRepresentationToString(List<GroupRepresentation> groupList) {
         return groupList.stream().map(GroupRepresentation::getName).toList();
     }
-
 }
